@@ -1,0 +1,102 @@
+[
+  {
+    "complaint": "Headache",
+    "action": "Ask if patient has tried over-the-counter pain relief. If severe, persistent, or accompanied by vision changes or confusion, offer same-day GP appointment."
+  },
+  {
+    "complaint": "Sore Throat",
+    "action": "Ask about duration and severity. If mild and under one week, advise salt-water gargle and OTC remedies. If difficulty swallowing, high fever, or lasting over a week, book GP appointment."
+  },
+  {
+    "complaint": "Cough",
+    "action": "If under 3 weeks and mild, advise OTC cough syrup and hydration. If over 3 weeks, associated with shortness of breath, chest pain, or blood, book GP appointment."
+  },
+  {
+    "complaint": "Fever",
+    "action": "Advise paracetamol and hydration. If fever is very high, lasts more than 5 days, or patient is very unwell, book GP appointment."
+  },
+  {
+    "complaint": "Ear Pain",
+    "action": "If mild and less than 3 days, advise OTC pain relief. If severe, persistent, or accompanied by hearing loss or discharge, book GP appointment."
+  },
+  {
+    "complaint": "Nasal Congestion / Sinus Pain",
+    "action": "If less than a week, advise steam inhalation and OTC decongestants. If severe facial pain or lasting over 7-10 days, book GP appointment."
+  },
+  {
+    "complaint": "Chest Pain",
+    "action": "If severe, crushing, or with breathlessness, advise calling emergency services immediately. Otherwise, book urgent same-day GP appointment."
+  },
+  {
+    "complaint": "Abdominal Pain",
+    "action": "Ask duration and severity. If mild and short-term, advise OTC antacids or pain relief. If severe, persistent, or with vomiting, fever, or blood in stool, book GP appointment."
+  },
+  {
+    "complaint": "Back Pain",
+    "action": "If mild and less than a week, advise OTC pain relief and gentle exercise. If severe, persistent, with numbness or difficulty passing urine, book GP appointment."
+  },
+  {
+    "complaint": "Rash",
+    "action": "If mild and no systemic symptoms, advise over-the-counter creams or pharmacist consultation. If painful, spreading rapidly, or with fever, book GP appointment."
+  },
+  {
+    "complaint": "Urinary Symptoms (e.g. Painful Urination)",
+    "action": "If mild and recent onset, advise increased fluids and consider pharmacist advice. If persistent, severe, with fever or blood in urine, book GP appointment."
+  },
+  {
+    "complaint": "Eye Irritation / Red Eye",
+    "action": "If mild, advise pharmacist for eye drops. If vision changes, severe pain, or light sensitivity, book GP appointment."
+  },
+  {
+    "complaint": "Constipation",
+    "action": "If mild and short-term, advise lifestyle changes and OTC laxatives. If persistent, severe pain, or bleeding, book GP appointment."
+  },
+  {
+    "complaint": "Diarrhea",
+    "action": "If less than 48 hours, advise hydration and OTC anti-diarrheal. If lasting more than a week, or with blood or severe dehydration, book GP appointment."
+  },
+  {
+    "complaint": "Vomiting",
+    "action": "If short-term and mild, advise hydration and rest. If persistent, bloody, or patient is unable to keep fluids down, book GP appointment."
+  },
+  {
+    "complaint": "Ankle / Knee Pain (Joint Pain)",
+    "action": "If recent strain or mild ache, advise rest, ice, and OTC pain relief. If swelling, redness, or difficulty bearing weight, book GP appointment."
+  },
+  {
+    "complaint": "Medication Queries",
+    "action": "Direct to community pharmacist if about minor side effects or over-the-counter meds. If prescription issues or severe side effects, arrange GP phone call."
+  },
+  {
+    "complaint": "Prescription Requests",
+    "action": "Advise using the online request system if available or request repeat prescription form. If urgent or medication running out, note for GP to review."
+  },
+  {
+    "complaint": "Test Results",
+    "action": "Check if results are back. If normal and routine, advise patient of normal outcome (if practice policy allows). If abnormal or requires discussion, book GP telephone appointment."
+  },
+  {
+    "complaint": "Mental Health Concerns (Anxiety, Low Mood)",
+    "action": "If mild, advise self-help resources or online CBT tools. If patient is in distress, suicidal ideation, or severe symptoms, book urgent GP appointment."
+  },
+  {
+    "complaint": "Skin Lump / Mole Change",
+    "action": "If new, changing in size, color, or shape, book GP appointment for examination."
+  },
+  {
+    "complaint": "Hay Fever / Allergy Symptoms",
+    "action": "Advise OTC antihistamines or pharmacist consultation. If severe or not responding to OTC meds, book GP appointment."
+  },
+  {
+    "complaint": "Tiredness / Fatigue",
+    "action": "If short-term and no other symptoms, advise rest and healthy lifestyle. If persistent over several weeks, book GP appointment for assessment."
+  },
+  {
+    "complaint": "Dizziness",
+    "action": "If mild and occasional, advise hydration and rest. If persistent, severe, or accompanied by fainting or visual changes, book GP appointment."
+  },
+  {
+    "complaint": "Wound / Minor Injury",
+    "action": "If superficial, advise cleaning and OTC dressing from pharmacist. If deep, infected, or not healing, book GP or practice nurse appointment."
+  }
+]
