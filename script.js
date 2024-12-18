@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const query = searchInput.value.trim().toLowerCase();
         
         // Find the complaint in the data
-        const match = data.find(item => item.complaint.toLowerCase() === query);
+        const match = data.find(item => item.complaint.toLowerCase().includes(query));
         
         if (match) {
           resultDiv.innerHTML = `
