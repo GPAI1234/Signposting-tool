@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #0062cc;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
