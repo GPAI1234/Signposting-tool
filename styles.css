@@ -1,32 +1,91 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #f6f9fc, #dde7f3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   text-align: center;
+  margin-top: 40px;
+  color: #333;
+  font-size: 2rem;
 }
 
 .search-container {
-  text-align: center;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+  flex-wrap: wrap;
+  padding: 0 20px;
 }
 
 #search-input {
   width: 300px;
+  max-width: 80%;
   padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 #search-button {
   padding: 10px 20px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
   margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#search-button:hover {
+  background-color: #0062cc;
 }
 
 .result-container {
-  margin-top: 30px;
-  font-size: 18px;
+  font-size: 1rem;
   max-width: 600px;
   margin: 30px auto;
-  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
+  border: none;
+}
+
+.result-container h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.result-container p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #search-input {
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  #search-button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .result-container {
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1rem;
+  }
 }
